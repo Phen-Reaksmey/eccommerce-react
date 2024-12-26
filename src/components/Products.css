@@ -1,0 +1,59 @@
+#new-arrival {
+    background-color: #f8f9fa; /* Light background for the section */
+  }
+  
+  
+  .product-item .card {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    height: 100%; /* Make the card stretch to the same height */
+  }
+  
+  .product-item .card-body {
+    flex-grow: 1; /* Ensure the body stretches to fill available space */
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out the title and price */
+  }
+  
+  .product-item .btn-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+  
+  .product-item .card-title a {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .product-item .card-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-item:hover .card {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .product-item .image-holder {
+    position: relative;
+  }
+  
+  .product-item .product-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .product-item:hover .product-image {
+    transform: scale(1.1);
+  }
+  
+  .product-item .card-body .card-title {
+    margin-bottom: 0.5rem; /* Some spacing between title and price */
+    
+  }
+  
